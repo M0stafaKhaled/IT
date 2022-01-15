@@ -1,0 +1,126 @@
+:root{
+
+    --primary:#2E3138;
+    --lighte:#eee;
+    --Dark:#212121;
+    --scand:#EE693A;
+    --text:#ff6c3a;
+   
+}
+.servcies{
+
+    padding-top: 10%;
+    margin-bottom:100px ;
+}
+.servcies .services-title
+{
+
+    text-align: center;
+  
+}
+.servcies .services-title h4
+{
+
+    color: var(--text);
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+}
+.servcies .services-title h3{
+
+    font-size: 16px;
+    margin-top: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.servcies .servcies-body{
+
+    padding-left: 10%;
+    padding-right:10% ;
+    padding-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+    flex-wrap: wrap;
+    /* box-sizing: border-box; */
+    flex-direction: row;
+    
+   margin-bottom: 100px;
+}
+.servcies .servcies-product{
+border: 1px dashed #e1e1e1;
+margin-top: 70px;
+padding: 12px 11px;
+position: relative;
+width: 33%;
+max-width: 33%;
+margin-bottom: 1px;
+height: 30vh;
+/* position: relative; */
+
+
+}
+.servcies .services-content{
+    background: #f9f9f9 none repeat scroll 0 0;
+    padding: 45px 15px;
+    text-align: center;
+}
+.servcies .servcies-img {
+
+    /* position: absolute;
+    top:calc(189px - 100%);
+    left:calc(100%  - 200px); */
+
+    left: 50%;
+    margin-left: -32px;
+    position: absolute;
+    top: -32px;
+}
+
+@media all and (max-width: 1001px) {
+    
+    .servcies-product
+        {
+                width: 50%;
+                max-width: 50%;
+                min-width: 50%;
+               
+
+        }
+     
+    
+}
+
+@media all and (max-width: 800px) {
+
+      .servcies .servcies-body{
+
+        flex-direction: column;
+     
+    }
+    .servcies-product
+    {
+          
+            min-width: 100%;
+           
+
+    }
+    
+}
+
+
+
+
+.cloud{
+    background: #2e3138 url("../images/9.webp") no-repeat scroll center 101%;
+padding-bottom: 170px ; 
+
+}
+
+
+
+
+
