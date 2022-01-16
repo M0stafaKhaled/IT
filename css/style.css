@@ -18,7 +18,8 @@
 }
 body{
 
-    overflow-x: hidden;
+    overflow-x: scroll;
+    width: 100%;
 }
 
 .menu-bar{
@@ -66,7 +67,7 @@ body{
     background-color: var(--scand);
 }
 
-h2{
+ .container h2{
     color: #fff;
     font-size: 27px;
     font-weight: 800;
@@ -143,22 +144,27 @@ nav{
 
 header .header-container{
 
-    display: flex;
+    
     width: 100%;
     height: 100vh;
-    align-items: flex-start;
     background-image: url('../images/slider.webp');
-    justify-content: space-around;
-    /* position: relative; */
-    padding: 20%;
-    padding-top:11% ;
-   overflow: hidden;
+    
+   
+}
+
+.header-data{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 10%;
+    
 }
 .content{
 
     
-    padding:12px ;
-    height: 40vh;
+    /* background-color: #EE693A; */
+    width: 50%;
     transition: all 1s ease-in-out;
     /* animation: slideup 2s ease-in-out;
     animation-iteration-count: infinite; */
@@ -168,29 +174,22 @@ header .header-container{
 .img-slider{
  
     height: 50vh;
-    
-    padding-right: 20%;
-    display: flex;
-    align-items: flex-end;
-    justify-content: end;
+    width: 50%;
+    text-align: center;
+    /* background-color: red; */
     /* padding: 10%;    */
     /* position: absolute; */
    
 }
 .img-show{
-    width: 20%;
-    height: 70vh;
-    transition: all 3s ease-in-out;
-    padding-top:30% ;
-    /* animation: left-to-right  4s ease-in-out ; */
-    /* animation-iteration-count: infinite; */
-    /* animation-fill-mode: forwards; */
+  
+    transition: all 1s ease-in-out;
+  
     
 }
 .img-show img{
 
-    width: 350px;
-    height: 350px;
+    width: 450px;
    
 }
 @keyframes left-to-right{
@@ -215,11 +214,18 @@ header .header-container{
         transform: translateX(0);
     }
 }
- .p{
+ .money{
 
-    font-size:18px;
+    font-size:30px;
     color:var(--scand) ;
     
+}
+.content h2{
+
+    color: #373737;
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 800;
 }
 
 
@@ -240,12 +246,17 @@ header .header-container{
 
     .content{
         width: 100%;
-        padding: 22%;
+        /* padding: 22%; */
         margin-top: 12px;
+    }
+    .header-data{
+            align-items: center;
+            justify-content: center;
+
     }
     .img-show {
 
-        padding: 60%;
+        /* padding: 60%; */
     }
     
 }
@@ -271,8 +282,16 @@ header .header-container{
 
         .header-container{
 
-            padding: 30%;
+            /* padding: 30%; */
         }
+
+        .img-show img{
+
+            width: 350px;
+           
+        }
+        
+
     }
 
   

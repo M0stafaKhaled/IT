@@ -31,16 +31,27 @@
     color: var(--text);
     font-size: 12px;
     letter-spacing: 2px;
-    margin-bottom: 5px;
+    text-transform: uppercase;
+    margin-bottom: 10px
 }
 .seaction5 h4{
 
-    margin-bottom: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
     color: #fff;
-    font-size: 17px;
+    margin-bottom: 40px;
+    line-height: 1.2;
+    font-weight: 800;
 }
+
+
 .seaction5 h3{
-    margin-bottom: 10px;
+    color: #ff6c3a;
+    font-family: lato;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 35px
 }
 .seaction5-btn{
 
@@ -62,8 +73,45 @@ padding-left: 5%;
 }
 .seaction5-left img{
 
-    width: 400px;
-    vertical-align: middle;
+
+vertical-align: middle;
 border-style: none;
 width: 100%;
 }
+
+@media all and (max-width:900px) {
+    
+
+    .seaction5{
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .seaction5-left {
+        text-align: center !important;
+        padding: 0;
+        width: 100%;
+        padding: 0 !important;
+        width: 70% !important;
+       
+        display: flex !important;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+    }
+    .seaction5-left img {
+        max-width: 100%;
+      
+        text-align: center;
+         margin-left: -15%;
+     
+        align-self: flex-start;
+     }
+    
+    }
+   
+    .seaction5-right {
+
+        
+    }

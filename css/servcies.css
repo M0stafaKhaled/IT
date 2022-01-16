@@ -33,14 +33,46 @@
     font-size: 16px;
     margin-top: 12px;
     letter-spacing: 2px;
+    
+
     text-transform: uppercase;
+}
+
+.services-content .title::before{
+    content: "";
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    top: -4px;
+    width: 100%;
+    z-index: -1;
+    border-bottom: 4px double rgb(252, 178, 153);
+}
+.services-content .title {
+    display: inline-block;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 2;
+    padding: 0px 50px;
+}
+.services-content h3 {
+
+    color: var(--text);
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    z-index: 2;
+    background: none 0px 0px repeat scroll rgb(249, 249, 249);
+    padding: 0px 15px;
 }
 .servcies .servcies-body{
 
-    padding-left: 10%;
+    /* padding-left: 10%;
     padding-right:10% ;
-    padding-top: 5%;
-    width: 100%;
+    padding-top: 5%; */
+   padding: 50px;
+   padding-top: 4%;
+ 
     display: flex;
     justify-content: space-between;
     align-content: space-around;
@@ -65,7 +97,8 @@ height: 30vh;
 }
 .servcies .services-content{
     background: #f9f9f9 none repeat scroll 0 0;
-    padding: 45px 15px;
+   height: 100%;
+   padding: 10%;
     text-align: center;
 }
 .servcies .servcies-img {

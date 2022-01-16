@@ -40,10 +40,7 @@ min-height: 100%; */
 .seaction7{
 
 
-    width: 100%;
-   height: 100vh;
-
-  
+    
    overflow: visible;
 }.seaction7-seacondpart{
 
@@ -79,8 +76,8 @@ seaction7-seacondpart h4{
 .seacondpart-content{
         
     background-color:#fff;
-    height: 60vh;
-    width: 120%;
+    /* height: 60vh;
+    width: 120%; */
     padding: 10%;
     margin: 0 -100px;
     
@@ -135,7 +132,7 @@ margin-top: 12px;
 }
 .seaction7-thardpart{
 
-    height: 50vh;
+    height: 40vh;
     background-color: #F3F3F3;
     padding: 100px;
     
@@ -149,13 +146,13 @@ margin-top: 12px;
 
         flex-direction: column;
         margin: 0 -30px;
-        height: 110vh;
+        /* height: 110vh; */
         margin-bottom: 40vh;
        max-width: 600px;
     }
     .seaction7-thardpart{
 
-        height: 100vh;
+        height: 60vh;
     }
     .client{
 
@@ -165,7 +162,7 @@ margin-top: 12px;
     }
     .seaction7-thardpart{
 
-        height: 100vh;
+        /* height: 100vh; */
         
     
     }
