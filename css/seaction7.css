@@ -138,7 +138,12 @@ margin-top: 12px;
     
 }
 
-
+@media all and (max-width:750px) {
+    
+    .seacondpart-content { 
+        margin: 0 0;
+    }
+}
 
 @media all and (max-width:900px) {
 
