@@ -138,12 +138,7 @@ margin-top: 12px;
     
 }
 
-@media all and (max-width:750px) {
-    
-    .seacondpart-content { 
-        margin: 0 0;
-    }
-}
+
 
 @media all and (max-width:900px) {
 
@@ -157,7 +152,7 @@ margin-top: 12px;
     }
     .seaction7-thardpart{
 
-        height: 60vh;
+        height: 80vh;
     }
     .client{
 
@@ -187,4 +182,16 @@ margin-top: 12px;
         margin: 0 -80px;
     }
     
+}
+
+@media all and (max-width:750px) {
+    
+    .seacondpart-content { 
+        margin: 0 -100px !important  ;
+    }
+
+    .seaction7-thardpart{
+
+        height: 100vh ;
+    }
 }
