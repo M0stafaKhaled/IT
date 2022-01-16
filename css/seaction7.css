@@ -191,6 +191,18 @@ margin-top: 12px;
     }
     
 }
+@media all and (max-width:300px) {
+
+    .seacondpart-content{
+
+        width: 200px !important;
+    
+        text-align: center;
+        margin: 0 -12px !important;
+        padding: 12px;
+    }
+}
+
 
 @media all and (max-width:750px) {
     
