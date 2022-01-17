@@ -360,6 +360,22 @@ header .header-container{
             .nav-menu ul {
                 margin-top: 100px;
             }
+            .nav-menu {
+
+                height: 120vh;
+            }
             
+               
+                nav{
+
+                    font-size: 18px !important;
+                    /* padding: 10px !important; */
+                    
+                }
+                nav h2{
+
+                    font-size: 20px !important ;
+                }
+
         }
       

@@ -20,8 +20,8 @@ var nav = document.getElementById('nav');
 
                 
         if (document.body.scrollTop >= 200 || document.documentElement.scrollTop >= 200) 
-            nav.style.padding ="40px";
+            nav.style.padding ="30px";
             else
-            nav.style.padding ="20px"
+            nav.style.padding ="10px"
         
     });
