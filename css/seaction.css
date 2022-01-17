@@ -413,6 +413,10 @@ width: 50px !important;
 
       display: none;
     }
+    .search-btn{
+
+      width: 100%;
+    }
   }
 
   @media all and (max-width:800px) {
