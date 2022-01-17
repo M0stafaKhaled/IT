@@ -61,24 +61,17 @@ nav .matria .links{
 .wrapper #show-search:checked ~ .search-icon i::before{
     content: "\f00d";
 }
+/* .links  a:checked   ~ .matria .links{
+    left: 0%;
+    
+  } */
 .matria a {
 
     text-decoration: none;
 }
 
-.wrapper .search-box{
-  position: absolute;
-  height: 100%;
-  max-width: calc(100% - 50px);
-  width: 100%;
-  opacity: 0;
-  pointer-events: none;
-  transition: all 0.3s ease;
-}
-.wrapper #show-search:checked ~ .search-box{
-  opacity: 1;
-  pointer-events: auto;
-}
+
+
 .search-box input{
   width: 100%;
   height: 100%;
@@ -166,6 +159,7 @@ nav .matria .links{
   .wrapper #show-menu:checked ~ .menu-icon i::before{
     content: "\f00d";
   }
+  
   nav .matria .links{
     display: block;
     position: fixed;
@@ -182,7 +176,15 @@ nav .matria .links{
   }
   nav #show-menu:checked ~ .matria .links{
     left: 0%;
+    
   }
+ /* #m:checked ~  .links {
+       
+    left: -100%;
+  } */
+ /* .links #m:checked ~ ul  .links{
+background-color: tomato !important;
+  } */
   .matria .links li{
     margin: 15px 20px;
   }
