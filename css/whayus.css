@@ -236,13 +236,21 @@ margin-bottom: 20px;
     }
 }
 
-@media all  and (max-width:300px) {
+@media all  and (max-width:220px) {
 
 
 
     .whyus-title {
 
         position: static;
+        margin-bottom: 166px;
+        
     }   
+    .whyus {
+
+
+        margin-bottom: 500px !important; 
+    }
+
     
 }
