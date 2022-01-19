@@ -20,6 +20,7 @@ body{
 
     
     width: 100%;
+    zoom: 1;
 }
 
 .menu-bar{
@@ -68,24 +69,24 @@ body{
 }
 
  .container h2{
-    color: #fff;
+    /* color: #fff;
     font-size: 27px;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 1.4px;
-    text-transform: uppercase;
+    text-transform: uppercase; */
    
     /* align-self: flex-start;
     
     align-content: flex-start; */
 }
 
-.container{
+/* .container{
     
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-}
+} */
 
 .menu a:hover{
     background: #34373E;
@@ -232,19 +233,7 @@ header .header-container{
         
     }
    
-      /* .nav-menu {  display: none !important;}    */
-       
-    
-    
-    /* .menu{
-    
-        display: flex;
-        align-self: flex-end;
-        justify-self:flex-end;
-        width: 50%;
-    }
-     */
-    
+   
    
     }
 
@@ -262,24 +251,14 @@ header .header-container{
     }
 
   
-        /* @media all and (max-width:900px) {
-            h2{
-                font-size: 20px;
-            }
-            .menu {
-                font-size: 11px;
-                align-content: flex-end;
-                align-self: flex-end;
-            } 
-        } */
-
+  
 
         .container{
 /* background-color: blue;    */
 
-justify-content: space-between;
+/* justify-content: space-between;
 align-content: space-between;
-flex-wrap: wrap;
+flex-wrap: wrap; */
 
 /* min-height: auto; */
         }
@@ -288,10 +267,10 @@ flex-wrap: wrap;
           
            
         }
-        .container h2{
+        /* .container h2{
             width: 50%;
             margin-bottom: 100px;
-        }
+        } */
         /* .menu{
         
                 overflow-x: auto;
@@ -383,6 +362,17 @@ flex-wrap: wrap;
 
         
      
+                      /* @media all and (max-width:900px) {
+            h2{
+                font-size: 20px;
+            }
+            .menu {
+                font-size: 11px;
+                align-content: flex-end;
+                align-self: flex-end;
+            } 
+        } */
+
 
 
 
@@ -433,6 +423,19 @@ flex-wrap: wrap;
 
 
 
+    /* .nav-menu {  display: none !important;}    */
+       
+    
+    
+    /* .menu{
+    
+        display: flex;
+        align-self: flex-end;
+        justify-self:flex-end;
+        width: 50%;
+    }
+     */
+    
 
 
 

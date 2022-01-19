@@ -39,7 +39,7 @@
                 if(window.innerWidth <800)
                 location.reload();
                
-                console.log("mostaf")
+              
                 
 
     });

@@ -1,32 +1,25 @@
 .whyus{
 
     position: relative;
+
+    justify-content: center;
+    display: flex;
+    height: 120vh;
+   margin-top: 1%;
+   
 }
 
-.whyus-body{
-    /* background: url('../images/12.webp') ;
-    background-position: center;
-    background-size:cover ;
-    height: 40%;
-    width: 100%;
-    /* display: flex;
-    align-items: flex-end; */
-   
+
+.whyus-body{ 
     background: rgba(0, 0, 0, 0) url("../images/12.webp") no-repeat scroll center center;
     background-size: auto;
     -webkit-background-size: cover;
     background-size: cover;
-
-    display: flex;
-    flex-direction: row;
-   
     width: 98%;
-    height: 800px;
+    min-height: 800px;
     max-width: 2000px;
     z-index: -19;
    position: absolute;
-   /* top: 0;
-   left: 0; */
    top: 10px;
    left: 10px;
 }
@@ -60,6 +53,7 @@
     z-index: 5;
     background-color: #fff;
     margin-bottom: 10%;
+    /* height: auto; */
   
     
 }
@@ -101,10 +95,12 @@ text-transform: uppercase;
 
 }
 .whyus-title{
+    margin-top: 10px;
         text-align: center;
         width: 50%;
         margin: 0 auto;
-        padding-top: 40px;
+   
+       
 
 }
 .whyus-title h4{
@@ -113,7 +109,7 @@ text-transform: uppercase;
         font-size: 12px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 .whyus-title h3{
     color: #2e3138;
@@ -137,31 +133,45 @@ margin-bottom: 20px;
 
 @media all and (max-width:900px) {
     .whyus{
-        margin-top: 50%;
-        
-       
+
+        flex-direction: column;
+        display: flex; 
+        justify-content: space-between;
+        align-items: center; 
+        height: auto;
+        flex-wrap: wrap;
+     
+       margin-bottom: 20%;
     }
+  
     .whyus-productwrap{
 
         flex-direction: column;
-        position: relative;
+        position: static;
         text-align: center;
+        align-self: center;
+        justify-self: center;
     
 
     }
     .whyus-title{
 
         text-align: center;
-        margin-bottom: 90px !important;
+       width: 80%;
+      
+       min-height: 100px;
+        position: static;
+     margin-bottom: 90px;
         
     }
     .whyus-product {
 
-        width: 100%;
+        width: 90%;
         padding-left: 0;
-      
+       
         text-align: center;
-        margin-bottom: 12px;
+        margin-bottom: 10px !important;
+      
     }
     .whyus-product img{
 
@@ -175,78 +185,44 @@ margin-bottom: 20px;
     }
 }
 @media all and (max-width:800px) {
-    .whyus{
-        margin-top: 70%;
-    }
+  
     .whyus-productwrap{
               
       position: static;
      
 
     }
+
 }
 @media all and (max-width:1100px) {
     
 
-    .whyus-body{
-
-        /* width: 80%; */
-      
-      
-    }
+  
     .whyus{
 
-        flex-direction: column;
-        display: flex; 
-        justify-content: center;
-        align-items: center; 
-       
-        
+    height: 150vh;   
     }
     .whyus-product{
         margin-bottom: 50px;
     }
-    .whyus-productwrap{
+    .whyus-productwrap{        
+        width: 80%;
 
-    /* margin-left: 150px; */
-       
-        
-        
-        width: 70%;
-       
         padding: 0;
-       
-       
     
     }
 
-  .whyus-title {
-    width: 80%;
-    padding: 12px;
-    
-
-    
-    /* background-color: red; */
-    margin: 0 !important;
-    margin-bottom:0 ;
-    margin-bottom: 20px !important;
   
-
-  }
 
 }
 
 
 @media all and (max-width:1000px) {
 
-   
-
     .whyus-product img{
         margin-left: 10px;
 
     }
-
-
     
 }
 
@@ -258,4 +234,15 @@ margin-bottom: 20px;
             margin: auto;   
             text-align: center;
     }
+}
+
+@media all  and (max-width:300px) {
+
+
+
+    .whyus-title {
+
+        position: static;
+    }   
+    
 }

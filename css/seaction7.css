@@ -18,14 +18,10 @@ min-height: 100%; */
 }
 .firstpart-title{
     text-align: center;
+    width: 100%;
 }
 .seaction7-firstpart{
 
-    /* background:url('../images/woods.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh; */
     background-image: linear-gradient( to left , rgba(75, 37, 20, 0.85) ,
     
     rgba(0,0,0,.85) )  , url('../images/woods.jpg');
@@ -33,12 +29,11 @@ min-height: 100%; */
    background-attachment:fixed ;
 
    display: grid;
-   grid-template-columns: 1fr;
+   grid-template-columns: 1fr 2fr 1fr;
     
    
 }
 .seaction7{
-
 
     
    overflow: visible;
@@ -85,6 +80,8 @@ seaction7-seacondpart h4{
     left: calc(100%  - 1350px); */
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     z-index: 3;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
  
@@ -94,9 +91,6 @@ seaction7-seacondpart h4{
 
 width: 33%;
 text-align: center;
-
-
-
 
 }
 
@@ -146,13 +140,19 @@ margin-top: 12px;
 
         flex-direction: column;
         margin: 0 -30px;
-        /* height: 110vh; */
         margin-bottom: 40vh;
        max-width: 600px;
     }
     .seaction7-thardpart{
 
         height: 80vh;
+    }
+    .firstpart-title {
+
+        background-color: red;
+        min-width: 100% !important;
+       
+        text-align: center;
     }
     .client{
 
